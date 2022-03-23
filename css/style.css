@@ -7,18 +7,47 @@
 .container {
     max-width: 1000px;
     margin: auto;
-    
+    background-color: transparent
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
-}  
+} 
+
+header{
+    background-color: rgb(114, 114, 250);
+    max-height: 100px;
+}
 
 .nav ul li{
     display: inline-block;
-    margin: 20px 20px;
-    float: calc(100% - px)
+    margin-left: 30px;
+}
+
+.nav, .nav-2{
+    text-align: center;
     
+}
+
+a, .nav-2{
+    text-decoration: none;
+    color: white;
+}
+
+.pic-1{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.nav-2{
+    margin-right: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.accedi{
+    color: black;
 }
