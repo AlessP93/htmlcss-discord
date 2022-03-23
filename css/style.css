@@ -135,5 +135,22 @@ h1{
     background-color: rgb(231, 231, 231);
 }
 
+.pic-big{
+    width: 65%;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-big{
+    margin-top: 50px;
+    max-width: 650px;
+    text-align: center;
+}
+
+
+
 
 
