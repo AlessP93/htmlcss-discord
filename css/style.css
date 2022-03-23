@@ -5,9 +5,9 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1280px;
     margin: auto;
-    background-color: transparent
+    
 }
 
 .clearfix::after {
@@ -17,37 +17,72 @@
 } 
 
 header{
-    background-color: rgb(114, 114, 250);
-    max-height: 100px;
+    background-color: rgb(66, 66, 238);
+    padding: 30px;
 }
+
+
 
 .nav ul li{
     display: inline-block;
     margin-left: 30px;
+    
 }
 
 .nav, .nav-2{
     text-align: center;
+    
     
 }
 
 a, .nav-2{
     text-decoration: none;
     color: white;
+    
 }
 
-.pic-1{
-    margin-top: 25px;
-    margin-left: 30px;
+.nav, .logo{
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
-.nav-2{
+.logo{
+    margin-left: 260px;
+    margin-right: 40px;
+}
+
+.button-1{
     margin-right: 0;
     background-color: white;
     padding: 10px;
     border-radius: 20px;
+    vertical-align: middle;
 }
 
-.accedi{
+.button-2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.button-3{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+    color: white;
+}
+
+.accedi, .button-2{
     color: black;
+}
+
+.col-1, h1{
+    display: inline-block;
+    background-image: url("../css/img/jumbo.png");
+    text-align: center;
+    color: white;
+    padding-top: 40px;
 }
