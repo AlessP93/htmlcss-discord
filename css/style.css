@@ -17,34 +17,27 @@
 } 
 
 header{
-    background-color: rgb(66, 66, 238);
+    background-color: rgb(61, 61, 255);
     padding: 30px;
 }
-
-
 
 .nav ul li{
     display: inline-block;
     margin-left: 30px;
-    
 }
 
 .nav, .nav-2{
     text-align: center;
-    
-    
 }
 
 a, .nav-2{
     text-decoration: none;
     color: white;
-    
 }
 
 .nav, .logo{
     display: inline-block;
     vertical-align: middle;
-    
 }
 
 .logo{
