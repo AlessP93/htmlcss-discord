@@ -43,6 +43,7 @@ a, .nav-2{
 .logo{
     margin-left: 260px;
     margin-right: 40px;
+    
 }
 
 .button-1{
@@ -72,10 +73,16 @@ a, .nav-2{
     color: black;
 }
 
-.col-1, h1{
+.col-1{
     display: inline-block;
     background-image: url("../css/img/jumbo.png");
     text-align: center;
     color: white;
     padding-top: 40px;
+    height: 900px;
+    
+}
+
+h1{
+    color: white;
 }
