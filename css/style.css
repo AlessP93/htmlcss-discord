@@ -87,19 +87,51 @@ a, .nav-2{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
 }
+
+
 
 h1{
     color: white;
+}
+
+.pic-frog{
+    float: left;
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-frog{
+    margin-top: 50px;
+    float: left;
+    max-width: 650px;
     
 }
 
-.sect-1{
-    
-}
-
-.sect-1b{
+.pic-magic{
     float: right;
+    width: 35%;
+    margin: 30px;
 }
+
+.text-magic{
+    margin-top: 50px;
+}
+
+.pic-alien{
+    float: left;
+    width: 35%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-alien{
+    margin-top: 50px;
+    float: left;
+    max-width: 650px;
+    
+}
+
+
 
