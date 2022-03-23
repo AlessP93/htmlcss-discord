@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.nav ul li{
+    display: inline-block;
+    margin: 20px 20px;
+    float: calc(100% - px)
+    
+}
